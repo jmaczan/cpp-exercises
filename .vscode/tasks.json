@@ -8,6 +8,9 @@
             "args": [
                 "-std=c++20",
                 "-g",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
